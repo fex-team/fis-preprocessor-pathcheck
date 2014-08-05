@@ -1,0 +1,25 @@
+   
+<!DOCTYPE html>
+<html lang="zhCN">
+<head>
+    
+</head>
+
+<body>
+
+    <script type="text/javascript">
+
+        // 出错的path
+        var a = require('/static/home/b.js');
+        var css = __uri('/static/home/a.css');
+        var img = __inline('/static/home/a.png');
+        
+        //正确的path 
+        var img = __uri('../static/a.png');
+        var img = __uri('/static/a.png');
+
+    </script>
+
+   
+
+</body>

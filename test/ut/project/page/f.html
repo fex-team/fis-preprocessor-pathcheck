@@ -1,0 +1,34 @@
+   
+<!DOCTYPE html>
+<html lang="zhCN">
+<head>
+    
+</head>
+
+<body>
+
+    <style type="text/css">
+
+        /*正确的path*/
+        @import url('/static/c.css');
+        @import url('../static/c.css?__inline');
+
+        .style {
+            background: url('/static/a.png');
+        }
+        .img {
+            text:expression(src="../static/a.png");
+        }
+
+
+        /*出错的path*/
+        .style2 {
+            background: url(/static/home/a.png?__inline);
+        }
+        .img2 {
+            text:expression(src="/static/home/a.png");
+        }
+
+    </style>
+
+</body>

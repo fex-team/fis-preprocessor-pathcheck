@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+}
+
+/**
+    @require b.css
+    @require /static/home/b.css
+*/
+
+@import url('c.css');
+@import url('c.css?__inline');
+
+.style {
+    background: url('a.png');
+}
+
+.style2 {
+    background: url(/static/home/a.png?__inline);
+}
+
+.img {
+    text:expression(src="a.png");
+}
+
+.img2 {
+    text:expression(src="/static/home/a.png");
+}

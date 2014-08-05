@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zhCN">
+<head>
+
+</head>
+
+<body>
+    <!-- 正确的path -->
+    <!--
+        inline[b.html]
+        @require /static/a.js
+        @require "../static/b.css"
+    -->
+
+    <!-- 出错的path -->
+    <link rel="import" href="/static/home/b.html?__inline">
+    <!--
+        @require /static/home/a.js
+        @require "/static/home/b.css"
+    -->
+
+</body>
