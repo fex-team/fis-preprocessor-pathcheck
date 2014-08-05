@@ -62,7 +62,7 @@ function lint_html(content, file){
                 });
             }
         } else if($6){
-            // m = map.embed.ld + $6 + map.embed.rd;
+            checkPath($6, file);
         } else if($7){
             analyseComment($7, file);
         }

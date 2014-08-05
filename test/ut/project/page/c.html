@@ -6,14 +6,15 @@
 
 <body>
     <!-- 正确的path -->
+    <!--inline[b.html]-->
     <!--
-        inline[b.html]
         @require /static/a.js
         @require "../static/b.css"
     -->
 
     <!-- 出错的path -->
     <link rel="import" href="/static/home/b.html?__inline">
+    <!--inline[/static/home/b.html]-->
     <!--
         @require /static/home/a.js
         @require "/static/home/b.css"
