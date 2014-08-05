@@ -1,6 +1,6 @@
 ## FIS 路径检查插件
 
-检查js，css，html，tpl中路径。无效路径报warning。
+检查js，css，html，tpl文件中路径。无效路径报warning。
 
 ### 使用
 
