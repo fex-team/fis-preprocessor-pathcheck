@@ -110,6 +110,7 @@ function lint_js(content, file){
 }
 
 module.exports = function(content, file, conf){
+    fis.log.debug('checkPath [' + file.realpath + '] start');
     if(conf.ignored){
         if(typeof conf.ignored === 'string' || fis.util.is(conf.ignored, 'RegExp')){
             ignored = [ conf.ignored ];
@@ -132,5 +133,6 @@ module.exports = function(content, file, conf){
     }else if(file.isCssLike){
         lint_css(content, file);
     }
+    fis.log.debug('checkPath [' + file.realpath + '] end');
     return content;
 }
