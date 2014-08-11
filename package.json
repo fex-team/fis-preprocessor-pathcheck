@@ -1,6 +1,6 @@
 {
-  "name": "fis-preprocessor-pathCheck",
-  "version": "0.0.0",
+  "name": "fis-preprocessor-pathcheck",
+  "version": "0.0.1",
   "description": "fis",
   "main": "index.js",
   "directories": {
@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/lily-zhangying/fis-preprocessor-pathCheck/issues"
   },
-  "homepage": "https://github.com/lily-zhangying/fis-preprocessor-pathCheck"
+  "homepage": "https://github.com/lily-zhangying/fis-preprocessor-pathCheck",
+  "dependencies": {
+    "fis": "~1.7.14",
+    "chai": "~1.9.1"
+  }
 }
