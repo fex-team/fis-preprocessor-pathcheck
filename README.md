@@ -11,13 +11,13 @@ $ vi path/to/project/fis-conf.js
 
 ```javascript
 //configure plugin
-fis.config.get('modules.preprocessor.js').unshift('pathCheck');
-fis.config.get('modules.preprocessor.css').unshift('pathCheck');
-fis.config.get('modules.preprocessor.html').unshift('pathCheck');
-fis.config.get('modules.preprocessor.tpl').unshift('pathCheck');
+fis.config.get('modules.preprocessor.js').unshift('pathcheck');
+fis.config.get('modules.preprocessor.css').unshift('pathcheck');
+fis.config.get('modules.preprocessor.html').unshift('pathcheck');
+fis.config.get('modules.preprocessor.tpl').unshift('pathcheck');
 
 //configure plugin settings
-fis.cofnig.set('settings.preprocessor.pathCheck', {
+fis.cofnig.set('settings.preprocessor.pathcheck', {
     //ignored some files
     //ignored : 'static/libs/**.js',
     ignored : [ 'static/libs/**.js', /jquery\.js$/i ]
