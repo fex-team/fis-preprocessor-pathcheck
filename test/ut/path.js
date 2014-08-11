@@ -18,26 +18,26 @@ describe('compile', function(){
         });
     });
 
-    // it('check css file', function(){
-    //     var f = file(root + '/static/a.css');
-    //     var content = pathCheck(f.getContent(), f, {});
-    //     expect(content).to.equal(f.getContent());
+    it('check css file', function(){
+        var f = file(root + '/static/a.css');
+        var content = pathCheck(f.getContent(), f, {});
+        expect(content).to.equal(f.getContent());
 
-    // });
+    });
 
-    //  it('check js file', function(){
-    //     var f = file(root + '/static/a.js');
-    //     var content = pathCheck(f.getContent(), f, {});
-    //     expect(content).to.equal(f.getContent());
+     it('check js file', function(){
+        var f = file(root + '/static/a.js');
+        var content = pathCheck(f.getContent(), f, {});
+        expect(content).to.equal(f.getContent());
 
-    // });
+    });
 
 
-    // it('check html file', function(){
-    //     var f = file(root + '/page/a.html');
-    //     var content = pathCheck(f.getContent(), f, {});
-    //     expect(content).to.equal(f.getContent());
-    // });
+    it('check html file', function(){
+        var f = file(root + '/page/a.html');
+        var content = pathCheck(f.getContent(), f, {});
+        expect(content).to.equal(f.getContent());
+    });
 
     it('check html file', function(){
         var f = file(root + '/page/c.html');
@@ -45,15 +45,15 @@ describe('compile', function(){
         expect(content).to.equal(f.getContent());
     });
 
-    // it('check html file', function(){
-    //     var f = file(root + '/page/d.html');
-    //     var content = pathCheck(f.getContent(), f, {});
-    //     expect(content).to.equal(f.getContent());
-    // });
+    it('check html file', function(){
+        var f = file(root + '/page/d.html');
+        var content = pathCheck(f.getContent(), f, {});
+        expect(content).to.equal(f.getContent());
+    });
 
-    // it('check html file', function(){
-    //     var f = file(root + '/page/f.html');
-    //     var content = pathCheck(f.getContent(), f, {});
-    //     expect(content).to.equal(f.getContent());
-    // });
+    it('check html file', function(){
+        var f = file(root + '/page/f.html');
+        var content = pathCheck(f.getContent(), f, {});
+        expect(content).to.equal(f.getContent());
+    });
 });
