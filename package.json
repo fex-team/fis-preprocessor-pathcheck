@@ -1,6 +1,6 @@
 {
   "name": "fis-preprocessor-pathcheck",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "fis",
   "main": "index.js",
   "directories": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lily-zhangying/fis-preprocessor-pathCheck.git"
+    "url": "https://github.com/fex-team/fis-preprocessor-pathcheck.git"
   },
   "keywords": [
     "fis"
@@ -23,11 +23,7 @@
   "author": "fisteam",
   "license": "B.S.D",
   "bugs": {
-    "url": "https://github.com/lily-zhangying/fis-preprocessor-pathCheck/issues"
+    "url": "https://github.com/fex-team/fis-preprocessor-pathcheck/issues"
   },
-  "homepage": "https://github.com/lily-zhangying/fis-preprocessor-pathCheck",
-  "dependencies": {
-    "fis": "~1.7.14",
-    "chai": "~1.9.1"
-  }
+  "homepage": "https://github.com/fex-team/fis-preprocessor-pathcheck"
 }
