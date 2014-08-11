@@ -5,7 +5,7 @@
 ### 使用
 
 ```shell
-$ npm install -g fis-preprocessor-pathCheck
+$ npm install -g fis-preprocessor-pathcheck
 $ vi path/to/project/fis-conf.js
 ```
 
