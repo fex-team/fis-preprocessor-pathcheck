@@ -11,10 +11,12 @@ $ vi path/to/project/fis-conf.js
 
 ```javascript
 //configure plugin
-fis.config.get('modules.preprocessor.js').unshift('pathcheck');
-fis.config.get('modules.preprocessor.css').unshift('pathcheck');
-fis.config.get('modules.preprocessor.html').unshift('pathcheck');
-fis.config.get('modules.preprocessor.tpl').unshift('pathcheck');
+fis.config.set('modules.preprocessor.js', 'pathcheck');
+fis.config.set('modules.preprocessor.css', 'pathcheck');
+fis.config.set('modules.preprocessor.html', 'pathcheck');
+
+//FIS-PLUS
+fis.config.set('modules.preprocessor.tpl', 'pathcheck,' + fis.config.get('modules.preprocessor.tpl'));
 
 //configure plugin settings
 fis.cofnig.set('settings.preprocessor.pathcheck', {
