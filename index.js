@@ -122,7 +122,7 @@ module.exports = function(content, file, conf){
     }
     if(ignored){
         for(var i=0, len=ignored.length; i<len; i++ ){
-            if(fis.util.filter(file.subpath, ignored[i])) return;         
+            if(fis.util.filter(file.subpath, ignored[i])) return content;         
         }  
     }
 
