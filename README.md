@@ -19,7 +19,7 @@ fis.config.set('modules.preprocessor.html', 'pathcheck');
 fis.config.set('modules.preprocessor.tpl', 'pathcheck,' + fis.config.get('modules.preprocessor.tpl'));
 
 //configure plugin settings
-fis.cofnig.set('settings.preprocessor.pathcheck', {
+fis.config.set('settings.preprocessor.pathcheck', {
     //ignored some files
     //ignored : 'static/libs/**.js',
     ignored : [ 'static/libs/**.js', /jquery\.js$/i ]
