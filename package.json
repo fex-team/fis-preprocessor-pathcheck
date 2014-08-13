@@ -1,6 +1,6 @@
 {
   "name": "fis-preprocessor-pathcheck",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "fis",
   "main": "index.js",
   "directories": {
