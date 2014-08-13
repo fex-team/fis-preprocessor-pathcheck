@@ -9,8 +9,8 @@ var ignored = {};
 
 function checkPath(path, file){
     var info = fis.util.stringQuote(path);
-    var path = info.rest;    
-    if(path && path[0] === '/'){
+    var p = info.rest.trim();    
+    if(p && p[0] === '/'){
         var info = fis.uri.getId(path, file.dirname);
         if(!info.file || !info.file.isFile()){
             fis.log.warning('Invalid path: File [' + file + '] use invalid path [' +  path + "] ");
