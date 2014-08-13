@@ -16,10 +16,6 @@
   "keywords": [
     "fis"
   ],
-  "devDependencies": {
-    "chai": "*",
-    "mocha": "*"
-  },
   "author": "fisteam",
   "license": "B.S.D",
   "bugs": {
